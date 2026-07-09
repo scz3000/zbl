@@ -122,7 +122,7 @@ var audio=document.getElementById("bgmAudio");
 var btn=document.getElementById("musicBtn");
 var isP=false;
 var firstTap=true;
-function initAudio(){audio.src="bgm.wav";audio.load()}
+function initAudio(){audio.src="https://raw.githubusercontent.com/SCZ3000/zbl/main/bgm.wav";audio.load()}
 function toggleMusic(){
   if(firstTap){initAudio();firstTap=false}
   if(isP){audio.pause();btn.className="";btn.innerHTML="🎵";isP=false}
